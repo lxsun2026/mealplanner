@@ -1,3 +1,5 @@
+#given a url of an AllRecipes recipe, return all ingredients and quantity
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -32,7 +34,7 @@ def get_ingredients(url):
 
     return ingredients, ingredient_names
 
-url = 'https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/' //placeholder url 
+url = 'https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/' #placeholder url 
 ingredients, ingredient_names = get_ingredients(url)
 for ingredient in ingredients:
     print(ingredient)
