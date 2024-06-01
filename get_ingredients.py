@@ -32,7 +32,7 @@ def get_ingredients(url):
 
     return ingredients, ingredient_names
 
-url = 'https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/'
+url = 'https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/' //placeholder url 
 ingredients, ingredient_names = get_ingredients(url)
 for ingredient in ingredients:
     print(ingredient)
