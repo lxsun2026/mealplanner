@@ -1,3 +1,6 @@
+#use Selenium to scrape StillTasty.com and create a 
+#table with ingredient names and their shelf lives
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
