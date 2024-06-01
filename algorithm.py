@@ -1,4 +1,5 @@
-//simple algorithm to display order of recipes to be cooked
+#simple algorithm to display order of recipes to be cooked
+
 from functools import cmp_to_key
 
 def compare_recipes_by_index(i, j):
